@@ -1,0 +1,17 @@
+{
+  "name": "inventario-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp para cotizaciones de inventario",
+  "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "baileys": "^6.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "axios": "^1.6.0",
+    "pino": "^8.0.0",
+    "node-cache": "^5.1.2"
+  }
+}

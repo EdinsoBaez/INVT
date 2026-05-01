@@ -1,0 +1,50 @@
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.spec
+*.log
+
+# ── Base de datos (datos locales, no se comparten) ────────
+inventario.db
+
+# ── Fotos de productos (archivos locales) ─────────────────
+product_photos/
+
+# ── PyInstaller ───────────────────────────────────────────
+build/
+dist/
+*.spec
+
+# ── Node.js ───────────────────────────────────────────────
+bot/node_modules/
+bot/auth_info/
+bot/.wwebjs_auth/
+bot/.wwebjs_cache/
+node_modules/
+
+# ── Logs ──────────────────────────────────────────────────
+*.log
+npm-debug.log*
+build_log.txt
+
+# ── Entornos virtuales Python ─────────────────────────────
+venv/
+.env/
+.venv/
+
+# ── Sistema operativo ─────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user

@@ -1,0 +1,3 @@
+# Solo se necesita Python 3.x estándar
+# sqlite3 y tkinter vienen incluidos con Python
+# No se requieren instalaciones adicionales
